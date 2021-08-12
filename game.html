@@ -13,6 +13,8 @@
     crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/gamestyle.css">
 </head>
 
@@ -33,10 +35,10 @@
         <ul class="navbar-nav menu me-auto mb-2 mb-lg-0">
           <li><a href="index.html">home</a></li>
           <li>
-            <a href="#Game1">Game1</a>
+            <a href="#Game1">GunGame</a>
           </li>
           <li>
-            <a href="#Game2">Game2</a>
+            <a href="#Game2">NeonDash</a>
           </li>
           <li>
             <a href="#Game3">Game3</a>
@@ -53,21 +55,31 @@
 
     </div>
   </nav>
-
-
-
-
+  <!--경고창-->
+  <div class="alert alert-primary alert-dismissible fade show" role="alert">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
+      <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+    </svg>
+    게임들은 휴대폰으로도 플래이할수는 있으나 <strong>블루투스키보드</strong>를 사용해야합니다
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+  <!--게임 테그-->
   <section id="Game1">
     <div class="gungame" style="max-width: 1200px; width:100%; height: auto; border-radius:5px; border:2px solid black;">
-      <div class="g-title"style="text-align:center;">gungame</div>
+      <div class="g-title"style="text-align:center;">GunGame</div>
       <p><img src="game-img/gungame.png" width="30%" style="margin-left:35%;"></p>
       <div class="g-example" style="margin-bottom:0.1%; text-align: center;">총게임입니다 휴대폰으로 플래이할수는 있으나 블루투스 키보드가 필요합니다</div>
-      <a href="" class="btn btn-primary" style=" width:15%; height:auto; margin-left:42.5%;margin-bottom: 5px;">시작하기</a>
+      <a href="https://zeon-coding.github.io/gungame/" class="btn btn-primary" style=" width:15%; height:auto; margin-left:42.5%;margin-bottom: 5px;">시작하기</a>
     </div>
   </section>
 
   <section id="Game2">
-    second
+    <div class="gungame" style="max-width: 1200px; width:100%; height: auto; border-radius:5px; border:2px solid black;">
+      <div class="g-title"style="text-align:center;">NeonDash</div>
+      <p><img src="game-img/gungame.png" width="30%" style="margin-left:35%;"></p>
+      <div class="g-example" style="margin-bottom:0.1%; text-align: center;">총게임입니다 휴대폰으로 플래이할수는 있으나 블루투스 키보드가 필요합니다</div>
+      <a href="https://zeon-coding.github.io/neondash/" class="btn btn-primary" style=" width:15%; height:auto; margin-left:42.5%;margin-bottom: 5px;">시작하기</a>
+    </div>
   </section>
 
   <section id="Game3">
